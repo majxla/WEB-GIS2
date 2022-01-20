@@ -3,23 +3,10 @@
 
 
 #container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    height: 800px;
+    width: 100%;
 }
 
-#text {
-    display: grid;
-    grid-template-rows: repeat(2, 1fr);
-    grid-gap: 20px;
-}
-
-#zafon, #list {
-    background: rgb(247, 247, 247);
-    min-width: 80%;
-    max-width: fit-content;
-    text-align: center;
-    
-}
 
 #mapDiv{
     height: 100%;
